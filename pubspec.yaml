@@ -1,0 +1,19 @@
+name: restaurantapp
+description: A new Flutter project
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  webview_flutter: ^4.10.0
+
+
+flutter:
+  assets:
+    <img src="assets/admin/images/header.jpg" alt="Header Image">
+    <img src="assets/admin/images/logo.png" alt="Logo">
+    <img src="assets/admin/images/slider/slider-img-1.jpg" alt="Slider 1">
+    <img src="assets/admin/images/blog/blog-img-1.jpg" alt="Blog 1">
+    <img src="assets/admin/images/photo/photo-1.jpg" alt="Photo 1">

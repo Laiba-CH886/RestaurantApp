@@ -1,0 +1,11 @@
+<plist version="1.0">
+    <dict>
+        <!-- Other existing entries -->
+
+        <key>NSAppTransportSecurity</key>
+        <dict>
+            <key>NSAllowsArbitraryLoads</key>
+            <true/>
+        </dict>
+    </dict>
+</plist>
