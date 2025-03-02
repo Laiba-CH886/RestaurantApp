@@ -1,0 +1,51 @@
+name: kkgfrontend
+
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  video_player: ^2.3.0
+  shared_preferences: ^2.2.2  # Used latest compatible version
+  cupertino_icons: ^1.0.8
+  firebase_core: ^3.11.0  # Ensure compatibility with firebase_auth and firebase_storage
+  firebase_auth: ^5.4.2
+  cloud_firestore: ^5.6.0
+  firebase_storage: ^12.4.2
+  provider: ^6.0.0  # Explicitly specify a stable version for provider
+  http: any
+  google_fonts: any
+  fluttertoast: any
+  razorpay_flutter: any  # For payments
+  geolocator: any  # For location-based services
+  image_picker: any  # For profile and food images
+  google_sign_in: ^5.4.0 # Latest stable version
+  lottie: ^3.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/image/  # ✅ Fixed incorrect asset directory path
+    - assets/icons/    # Ensure this path exists in your project
+    - assets/fonts/
+    - assets/KKG.mp4
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto-Bold.ttf
+          weight: 700
